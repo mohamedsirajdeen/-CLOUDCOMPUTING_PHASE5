@@ -1,0 +1,388 @@
+Home.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">	
+</head>
+<body>
+<section class="showcase-area" id="showcase">
+<div class="showcase-container">
+<h1 class="main-title" id="home">Eat and Treat</h1>
+<p>Eat Healty, it is good for our health.</p>
+</div>
+</section>
+	
+	<div class="padding-container">
+<hr>
+	<nav id="navbar">
+		<ul id="navcontent">
+			<li><a href="home.html">Restaurants</a></li>
+			<li><a href="#contact">ContactUs</a></li>
+<p>"Part of the secret of success is to eat what you like and let the food fight it out inside"</p>
+		</ul>
+	</nav>
+	</div>
+	<div id="container1">
+		<div id="row1">
+			Welcome to Online FoodShop 
+		</div>
+		<button class="btn">ORDER NOW</button><br />
+		<div id="container3">
+			<div id="row2">
+				<button class="btn">Prices</button><br />
+			</div>
+			<div id="row3">
+				<button class="btn">Specials</button><br />
+			</div>
+		</div>
+	</div>
+	<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: info@eatandtreats.com</p>
+<p>Phone: +91 9629876534</p>
+</section>
+	<footer>Copyright © 2020-2021 OnlineFoodShop. 
+		All Rights are reserved</footer>
+</body>
+</html>
+
+Page1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Online Food Delivery</title>
+</head>
+<body>
+<header>
+<h1>Food Delivery</h1>
+<p>Your favorite food, delivered to your door.</p>
+</header>
+<section id="food-menu">
+<h2 class="food-menu-heading">Food Menu</h2>
+<div class="food-menu-container container">
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://curlytales.com/wp-content/uploads/2022/02/burgers-8.jpg" alt="" />
+</div>
+<div class="food-description">
+<h2 class="food-titile">BURGER</h2>
+<p>
+              Hamburger, a food consisting of one or more cooked PATTIES, placed inside a sliced bread roll or bun roll. Cheeseburger, a hamburger with added cheese(s).
+</p>
+<p class="food-price">Price: &#8377; 250</p>
+</div>
+</div>
+
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJqEMksF4A3izAQMMFpEsF3PI-xm2jWEGmA&usqp=CAU"
+              alt="error"
+            />
+</div>
+<div class="food-description">
+<h2 class="food-titile">PIZZA</h2>
+<p>
+              A pizza loaded with a spicy combination of Harissa sauce, PeriPeri chicken chunks and delicious pasta.
+</p>
+<p class="food-price">Price: &#8377; 250</p>
+</div>
+</div>
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://hips.hearstapps.com/hmg-prod/images/chicken-fried-rice-horizontal-1545488885.png?crop=0.8893333333333334xw:1xh;center,top&resize=1200:*" alt="" />
+</div>
+<div class="food-description">
+<h2 class="food-titile">CHICKEN RICE</h2>
+<p>
+              Chicken fried rice is the comfort dish of Chinese food. 
+</p>
+<p class="food-price">Price: &#8377; 250</p>
+</div>
+</div>
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://i.ytimg.com/vi/MhzBUy-JOCE/maxresdefault.jpg" alt="" />
+</div>
+<div class="food-description">
+<h2 class="food-titile">CHICKEN NOODLES</h2>
+<p>
+              Chicken noodles are a delicious flavor packed meal of stir fried noodles, chicken, vegetables and sauces
+</p>
+<p class="food-price">Price: &#8377; 250</p>
+</div>
+</div>
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://images.hindi.news18.com/ibnkhabar/uploads/2021/08/masala-dosa-recipe-e1630574482215.jpg" alt="" />
+</div>
+<div class="food-description">
+<h2 class="food-titile">DOSA</h2>
+<p>
+              Dosa is a popular South Indian thin crepe made with fermented rice and lentil batte
+</p>
+<p class="food-price">Price: &#8377; 150</p>
+</div>
+</div>
+<div class="food-menu-item">
+<div class="food-img">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4LygVTmYcqL7dpCO0lGTM65i16J7ebfjaQ&usqp=CAU" alt="" />
+</div>
+<div class="food-description">
+<h2 class="food-titile">SHAWARMA</h2>
+<p>
+             SHAWARMA is a sandwich especially of sliced lamb or chicken, vegetables, and often tahini wrapped in pita bread
+</p>
+<p class="food-price">Price: &#8377; 250</p>
+</div>
+</div>
+</div>
+</section>
+<footer>
+	<li><a href="ibm.html">Home</a></li>
+	<li><a href="home.html">Restaurant</a></li>
+	<li><a href="menu.html">Menu</a></li>
+<p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+Style.css
+/* External Style Sheet */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://eatatbento.com/wp-content/uploads/2022/04/Bento-Food-Light-Background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-color: #f0f0f0;
+    line-height: 1.0;
+    margin: 0;
+    padding: 0;
+}
+.showcase-area {
+  height: 50vh;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.144),
+      rgba(255, 255, 255, 0.336)
+    ),
+    url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.6rem;
+}
+header {
+    background-color: #009688;
+    color: #fff;
+    text-align:center;
+    padding: 10px;
+}
+
+nav ul {
+    background-color: #009688;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#food {
+  padding: 5rem 0 10rem 0;
+}
+
+#food h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.food-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.food-container img {
+  display: block;
+  width: 100%;
+  margin: auto;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-container {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.img-content {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  z-index: 2;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0.1s;
+}
+
+.img-content h3 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.img-content a {
+  font-size: 1.2rem;
+}
+
+.img-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.871);
+  opacity: 0;
+  z-index: 1;
+
+  transform: scaleY(0);
+  transform-origin: 100% 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.img-container:hover::after {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.img-container:hover .img-content {
+  opacity: 1;
+  top: 40%;
+}
+
+/* .........../Food Menu/............ */
+
+.food-menu-heading {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 400;
+  color: #666;
+}
+
+.food-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px 30px 0px;
+}
+
+.food-menu-container img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.food-menu-item {
+  display: flex;
+  flex: 1 1 600px;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
+}
+
+.food-description {
+  margin: auto 1.5rem;
+}
+
+.font-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.food-description p {
+  font-size: 1.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.food-description .food-price {
+  color: #117964;
+  font-weight: 700;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color:#009688;
+    color: #fff;
+}
+
+Code Explanation
+Document Type Declaration (`<!DOCTYPE html>`):
+   - This declaration specifies that the document follows HTML5 standards.
+a.	<html>` Element:
+		- The root element that encloses the entire HTML document.
+		- The `lang` attribute is set to "en" to indicate the document's language as English.
+b.	<head>` Element:
+ - Contains metadata and information about the document.
+c.	`<meta>` Elements:
+   - `charset="UTF-8"` sets the character encoding to UTF-8, ensuring proper text rendering.
+ - `name="viewport"` defines a viewport for responsive web design.
+External CSS Link:
+			- `<link>` element references an external CSS file named "styles.css" for styling the web page.
+d.	`<body>` Element:
+		 - Contains the visible content of the web page.
+e.	`<section>` Element with the class "showcase-area":
+		  - It represents a section of the page, possibly a showcase area.
+		 - Contains a heading (`<h1>`) and a paragraph (`<p>`).
+f.	`<div>` Element with the class "padding-container":
+		- Wraps content for styling purposes and contains an `<hr>` element.
+g.	`<nav>` Element with the id "navbar":
+		 - Represents a navigation bar.
+		- Contains an unordered list (`<ul>`) with list items (`<li>`) for navigation links.
+h.	Paragraph Element (`<p>`) within the navigation:
+		- Contains a text that appears to be a quote.
+i.	`<div>` Element with the id "container1":
+		 - Contains a welcome message and an "ORDER NOW" button.
+Buttons:
+j.	 `<button>` elements with class "btn" that are used for actions.
+		- Some buttons have line breaks (`<br>`) following them.
+k.	`<section>` Element with the id "contact":
+		 - Represents a section for contact information.
+		 - Contains a heading (`<h2>`) and two paragraphs with email and phone contact details.
+l.	`<footer>` Element:
+		 - Contains copyright information.
